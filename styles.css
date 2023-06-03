@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #c4c4c4;
+    padding: 30px;
+  
+}
+
+header{
+    border-radius: 10px;
+    height: 10vh;
+}
+
+figure{
+    height: 50px;
+}
+
+
+
+.logo{
+padding: 8px;
+margin-left: 80px;
+}
+
+.container_header{
+    background-color: #777777;
+
+}
+
+.main_info{
+    background-color: #989898;
+    height: 70vh;
+    display: flex;
+    gap: 60px;
+    border-radius: 4px;
+    margin-top: -10px;
+    /* margin-top: 25px; */
+   
+}
+
+.nombre_pokemon{
+    background-color: #f6f6f6;
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 180px;
+    margin-bottom: -20px;
+    padding-top: 5px;
+    
+    
+}
+
+.section_info{
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+    line-height: 50px;
+    
+}
+
+.pokemonImagen{
+    width: 420px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.informacion_Pokemon{
+    background-color: #f6f6f6 ;
+    width: 30vw;
+    height: 58vh;
+    margin-top: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 45px;
+    text-align: center;
+}
+
+.listaDatos{
+    list-style: none;
+    padding: 30px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.info_footer{
+    background-color:#f6f6f6;
+    height: 20vh;
+    border-radius: 5px;
+    margin-top: -10px;
+ 
+}
+
+.contanierFooter{
+    display: flex;
+ gap: 80px;
+    align-items: center;
+}
+
+.contanierFooter h2{
+margin-top: 50px;
+margin-left: 280px;
+margin-right: 280ox;
+}
+
+.image__footer{
+    background-color: #c4c4c4;
+    height: auto;
+    border-radius: 10px;
+   margin-top: 30px;
+}
+
+.image__footer:hover{
+    background-color:#777777;
+}
